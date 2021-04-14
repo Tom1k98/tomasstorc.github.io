@@ -57,6 +57,9 @@ body {
     margin-right: 0rem !important;
     padding-right: 0rem !important;
     padding-left: 1rem !important;
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
 }
 
 .table {
@@ -148,20 +151,22 @@ h4 {
 /* ostatni dovednosti */
 
 .progress{
+   
     width: 50%;
     position: relative;
-    left: 13rem;
-    bottom: 1.2rem;
+    left: 15rem;
+    bottom: 2.3rem;
+    
 
 }
 .progress-bar{
     background-color: black !important;
 }
 .jazyky, .dovednosti{
-    display: inline;
     color: black;
     font-family: 'IBM Plex Sans', sans-serif ;
     font-size: 1rem;
+    
 }
 .dovednosti{
     margin-left: 8rem;

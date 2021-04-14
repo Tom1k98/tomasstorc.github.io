@@ -31,4 +31,7 @@
 .karta {
     margin: 0 auto;
 }
+.jazyk{
+    display: inline-block;
+}
 }
