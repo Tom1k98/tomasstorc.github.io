@@ -1,0 +1,34 @@
+@media(max-width:600px){
+    .navbar {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 1.5rem;
+        border-radius: 25px;
+        background-color: #D6D1D1;
+        border: 1px solid black;
+        margin-bottom: 0;
+
+    }
+   .profil{
+      padding-left: 0;
+      max-width: 100%;
+      margin: 0 auto;
+      max-height: 20rem;
+       
+   }
+   #vzdelani{
+       width: 95%;
+   }
+   .dovednosti{
+    margin-left: 15%;
+
+}
+.progress {
+    margin: 0 auto;
+    left: 25%;
+}
+.karta {
+    margin: 0 auto;
+}
+}

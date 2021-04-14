@@ -1,0 +1,225 @@
+/* pismo */
+h1 {
+    font-family: 'Kufam', cursive;
+    font-size: 4rem !important;
+    padding-top: 20%;
+    padding-left: 10%;
+    color: #D6D1D1;
+}
+
+p {
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem !important;
+    padding-left: 10%;
+    color: #D6D1D1;
+
+}
+
+body {
+    margin: 0rem;
+    line-height: 0rem;
+    padding: 0px;
+    background-color: #D6D1D1 !important;
+
+
+    /* uvod    */
+}
+
+.uvod {
+    background-color: black;
+    margin: 0rem;
+
+
+
+}
+
+.profil {
+    height: 30rem;
+    padding-left: 5%;
+
+}
+
+/* navbar */
+.navbar {
+    width: 40%;
+    position: absolute;
+    left: 28%;
+    bottom: 1.5rem;
+    border-radius: 25px;
+    background-color: #D6D1D1;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+/* vzdelani */
+.vzdelani {
+    margin-right: 0rem !important;
+    padding-right: 0rem !important;
+    padding-left: 1rem !important;
+}
+
+.table {
+    background-color: black;
+    color: white !important;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    margin-left: 1rem;
+}
+
+.tabulka {
+    width: 95% !important;
+
+}
+
+/* Pracovni zkusenosti */
+.vzdelani {
+    margin-left: 5rem;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1rem !important;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 2.5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.p {
+    margin-left: 0.6rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem !important;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-size: 0.8rem !important;
+    color: white;
+
+}
+
+.card {
+    background-color: black !important;
+    width: 15.5rem;
+    height: 15.5rem;
+    shape-outside: circle();
+    clip-path: circle();
+
+
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* it dovednosti */
+h4 {
+    color: white;
+    font-size: 1rem !important;
+}
+
+.karta {
+    background-color: black !important;
+ 
+    shape-outside: none;
+    clip-path: none;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    width: 20rem;
+	height: 22rem;
+	border-top: 30px solid transparent !important;
+	border-left: 55px solid #555 !important;
+	border-bottom: 30px solid transparent !important;
+    
+}
+/* ostatni dovednosti */
+
+.progress{
+    width: 50%;
+    position: relative;
+    left: 13rem;
+    bottom: 1.2rem;
+
+}
+.progress-bar{
+    background-color: black !important;
+}
+.jazyky, .dovednosti{
+    display: inline;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif ;
+    font-size: 1rem;
+}
+.dovednosti{
+    margin-left: 8rem;
+}
+  
+/* Kontakt */
+.kontakt-nadpis{
+    color: white;
+    margin-top: 0.5rem;
+}
+#kontakt{
+    margin-bottom: 0%;
+    text-align: center;
+    background-color: black;
+}
+.btn {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #D6D1D1);
+    background-image: -moz-linear-gradient(top, #ffffff, #D6D1D1);
+    background-image: -ms-linear-gradient(top, #ffffff, #D6D1D1);
+    background-image: -o-linear-gradient(top, #ffffff, #D6D1D1);
+    background-image: linear-gradient(to bottom, #ffffff, #D6D1D1);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 70px !important;
+    font-family: Courier New;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #D6D1D1;
+    background-image: -webkit-linear-gradient(top, #D6D1D1, #ffffff);
+    background-image: -moz-linear-gradient(top, #D6D1D1, #ffffff);
+    background-image: -ms-linear-gradient(top, #D6D1D1, #ffffff);
+    background-image: -o-linear-gradient(top, #D6D1D1, #ffffff);
+    background-image: linear-gradient(to bottom, #D6D1D1, #ffffff);
+    text-decoration: none;
+  }
+  .footer-link{
+      color: white;
+      padding-left: 0.3rem;
+      
+      
+  }
+
+  .cop{
+      margin-bottom: 0rem;
+      margin-top: 2rem;
+      padding-bottom: 1rem;
+      margin-right: 10%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 0.8rem !important;
+  }
+  html {
+      scroll-behavior: smooth;
+  }
+
